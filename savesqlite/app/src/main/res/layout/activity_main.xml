@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idBtnAddCourse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    < TextView
+        android:id="@+id/idEdtCourseDuration"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+        android:hint="مدت دوره را وارد کنید "
+        android:textColorHighlight="#0E0E0E"
+        android:textColorHint="#0E0E0E"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/idEdtCourseTracks"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+        android:hint="مسیر های دوره را وارد کنید "
+        android:textColorHighlight="@color/black"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/idEdtCourseDescription"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+        android:hint="توضیحات دوره را وارد کنید"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/idEdtCourseName"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+        android:hint="نام دوره را وارد کنید "
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="318dp"
+        android:layout_height="58dp"
+        android:text="ثبت دوزه "
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="496dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
